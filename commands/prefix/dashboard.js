@@ -47,7 +47,7 @@ if (!channel) return message.reply("Channel not found.");
           "style": 2,
           "type": 2,
           "label": "Ban Appeal",
-          "custom_id": "ban_appeal",
+          "custom_id": "ban_appeal"
 
         }
       ]
