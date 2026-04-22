@@ -42,18 +42,14 @@ module.exports = {
           "style": 3,
           "type": 2,
           "label": "Accept",
-          "flow": {
-            "actions": []
-          },
+
           "custom_id": "accept"
         },
         {
           "style": 4,
           "type": 2,
           "label": "Deny",
-          "flow": {
-            "actions": []
-          },
+
           "custom_id": "deny"
         }
       ]

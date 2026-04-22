@@ -47,9 +47,7 @@ module.exports = {
           "type": 2,
           "label": "Ban Appeal",
           "custom_id": "ban_appeal",
-          "flow": {
-            "actions": []
-          }
+
         }
       ]
     }
