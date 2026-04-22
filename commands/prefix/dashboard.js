@@ -8,7 +8,8 @@ module.exports = {
 
         }
 
-        const channel = message.guild.channels.cache.get("1474951200494452858")
+        const channel = await message.guild.channels.fetch("1474951200494452858").catch(() => null);
+if (!channel) return message.reply("Channel not found.");
 
         await message.delete();
 
